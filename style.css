@@ -157,8 +157,7 @@ body{
     padding: 10px;
     padding-left: 140px;
     /* background: linear-gradient(0deg, aliceblue, aliceblue);   */
-    /* background: linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1));  */
-    background: linear-gradient(to right rgb(255,255,255), rgb(242, 248, 255), rgb(251,253,255)); 
+    background: linear-gradient( rgb(255,255,255), rgb(242, 248, 255), rgb(242,248,255)); 
 }
 .grid1{
     display: grid;
@@ -539,7 +538,6 @@ body{
     margin-top: 30px;
 }
 .people_ask h2{
-    /* border-bottom: 1px solid lightgrey; */
     margin-bottom: 10px;
 }
 .summary1,
@@ -1378,9 +1376,8 @@ margin-top: 2px;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px; 
     padding-left: 140px;
-    /* background: linear-gradient(0deg,aliceblue 40%, aliceblue); */
     /* background: linear-gradient(0deg, aliceblue, aliceblue); */
-    background: linear-gradient(rgba(202,0,0,0), rgba(0, 202, 247, 0.943));
+    background: linear-gradient(rgb(255,255,255), rgb(242, 248, 255), rgb(242,248,255)); 
 }
 .grid1{
     display: grid;
@@ -1389,6 +1386,9 @@ margin-top: 2px;
                          'img1 img3';
     column-gap: 2px;
     /* position: relative; */    
+}
+.grid1 .img1{
+    grid-area: img1;
 }
 /* card */
 .youtube{
@@ -1424,13 +1424,10 @@ margin-top: 2px;
     /* column-gap:2px; */
 }
 .grid3_left{
-    background: lightblue;
     font-size: 14px;
     height: 150px;
     width: 130px;
     padding: 10px;
-    border-radius: 15px;
-    border: 1px solid lightblue;
 }
 .grid3_left p:first-child{
     margin-bottom: 50px;
@@ -1440,14 +1437,11 @@ margin-top: 2px;
     gap: 3px;
 }
 .grid3_right{
-    background: lightblue;
     font-size: 14px;
     height: 150px;
     width: 130px;
     padding: 10px;
     gap: 10px;
-    border-radius: 15px;
-    border: 1px solid lightblue;
     /* margin-right: 150px; */
 }
 .grid3_right p:first-child{
