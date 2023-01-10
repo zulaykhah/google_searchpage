@@ -129,7 +129,7 @@ body{
 .span_beside {
     border-radius: 20px;
     padding: 13px;
-    font-size: 14px;
+    font-size: 18px;
     background: aliceblue;
     color: blue;
 }
@@ -1212,12 +1212,14 @@ tbody p{
 }
 .first_part p{
     font-size: 14px;
-    padding: 16px;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 .second_part{
     display: flex;
-    gap: 15px;
-    padding: 16px;
+    gap: 30px; 
+    padding: 10px;
     font-size: 14px;
     color: #70757a;
 }
@@ -1286,7 +1288,7 @@ tbody p{
     margin-bottom: 20px;
     margin-left: 100px;
 }
-/* Breakpoint */
+/* Media Screen Responsiveness */
 @media screen and (min-width:375px){
 .first_icon img{
     width: 35px;
