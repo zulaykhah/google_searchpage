@@ -22,11 +22,11 @@ body{
 }
 .input_icon{
     display: flex;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     border: 1px solid lightgrey;
     border-radius: 50px;
     width: 650px; 
-    padding: 5px;
+    padding: 1px;
     gap: 10px;
     height: 55px;
     margin-top: 30px;
@@ -35,15 +35,15 @@ body{
 }
 .input_field {
     width: 100%; 
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 5px; 
+    margin-bottom: 15px;
     gap: 5px;
+    font-size: 16px;
     margin-right:50px;
 }
-.input_field:hover{
-    color: lightgray;
+.icon_downloads{
+  
 }
- 
 /* right icon */
 .right_icon{
     display: flex;
