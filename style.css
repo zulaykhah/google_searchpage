@@ -21,6 +21,8 @@ body{
     margin: 20px;
 }
 .input_field {
+    display: flex;
+    word-wrap: break-word;
     border: 1px solid lightgrey;
     border-radius: 50px;
     width: 650px; 
@@ -30,14 +32,14 @@ body{
     box-shadow: 0 3px 3px lightgrey;
     /* position: relative; */
 }
-.input_icon i{
-    /* position:absolute;  */
-    /* display: flex; */
-}
 .input_icon{
-    width: 100%;
-    margin-top: 10px;
+   width: 100%; 
+   margin-top: 10px;
+   background-color: transparent;
+   margin-left:20px ;
 }
+/* input search icon */
+
 .fa-xmark{
     position: absolute; 
     /* padding: 10px; */
