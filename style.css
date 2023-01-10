@@ -20,39 +20,30 @@ body{
     height: 60px;
     margin: 20px;
 }
-.input_field {
+.input_icon{
     display: flex;
     word-wrap: break-word;
     border: 1px solid lightgrey;
     border-radius: 50px;
     width: 650px; 
-    padding: 15px;
-    gap: 40px;
-    margin-top: 15px;
+    padding: 5px;
+    gap: 10px;
+    height: 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     box-shadow: 0 3px 3px lightgrey;
-    /* position: relative; */
 }
-.input_icon{
-   width: 100%; 
-   margin-top: 10px;
-   background-color: transparent;
-   margin-left:20px ;
+.input_field {
+    width: 100%; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    gap: 5px;
+    margin-right:50px;
 }
-/* input search icon */
-
-.fa-xmark{
-    position: absolute; 
-    /* padding: 10px; */
+.input_field:hover{
     color: lightgray;
-    /* min-width: 50px; */
-    /* gap: 5px; */
 }
-.fa-pipe{
-    /* padding: 10px; */
-    color: lightgray;
-    /* min-width: 50px; */
-    text-align: center; 
-} 
+ 
 /* right icon */
 .right_icon{
     display: flex;
