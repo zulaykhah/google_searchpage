@@ -157,8 +157,7 @@ body{
     grid-template-columns: 1fr 50%;
     grid-template-areas: 'img1 img2'
                          'img1 img3';
-    column-gap: 2px;
-    /* position: relative; */    
+    column-gap: 2px;    
 }
 .grid1 .img1{
     grid-area: img1;
@@ -277,7 +276,6 @@ body{
 .left_side{
     display: flex;
     flex-direction: column;
-    border-right: 1px solid lightgrey;
 }
 .right_side{
     display: flex;
@@ -336,9 +334,9 @@ body{
     color: lightgray;
 }
 /* right side */
-.right_stories{
-    border-left: 1px solid lightgray;
-}
+/* .right_stories{
+    border-left: 1px solid lightgray; 
+} */
 .marca{
     display: flex;
     flex-direction: column;
@@ -570,6 +568,7 @@ body{
 .first_part p:first-child{
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 16px;
 }
 .first_part a{
     text-decoration: none;
@@ -739,7 +738,7 @@ tbody p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 2px;
 }
 .people_search p{
     line-height: 1.6;
@@ -776,7 +775,7 @@ tbody p{
     border: 1px solid #f1f3f4;
     border-radius: 20px;
     padding: 5px;
-    width: 75%;
+    width: 60%;
     background: #f1f3f4;
 }
 .see_more span{
