@@ -794,6 +794,7 @@ tbody p{
 .video_h{
     display: flex;
     align-items: center;
+    margin-top: 70px;
     /* border-bottom: 1px solid lightgrey; */
 }
 .video{
@@ -819,7 +820,7 @@ tbody p{
     border: 1px solid lightgrey;
     border-radius: 20px;
     padding: 5px;
-    width: 25%;
+    width: 50%;
     gap: 5px;
     cursor: pointer;
     background: #f1f3f4;
