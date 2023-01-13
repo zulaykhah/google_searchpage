@@ -483,6 +483,14 @@ body{
     border-left: 1px solid #f1f3f4;
     border-right: 1px solid #f1f3f4;
 }
+/* .hline_left{
+    margin-top: 150px;
+    padding-left: 70px;
+}
+.hline_right{
+    padding-left: 65%;
+    padding-bottom: 10%;
+} */
 /* note */
 .more_news p{
     display: flex;
