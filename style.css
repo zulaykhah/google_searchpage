@@ -666,12 +666,15 @@ body{
     font-size: 16px;
 }
 .stats a:hover{
-    text-decoration: underline;
+    text-decoration: underline; 
 }
 .portugal a{
     text-decoration: none;
     color: #70757a;
     font-size: 14px;
+}
+.portugal a:hover{
+    text-decoration: underline;
 }
 /* Tabular Part */
 .d_rows{
@@ -681,10 +684,29 @@ body{
     font-size: 12px;
     color: #70757a;
 }
+.d_row{
+    display: flex;
+    margin-top: 10px;
+    gap: 60px; 
+    font-size: 12px;
+    color: #70757a; 
+}
+.d_row:hover{
+    text-decoration: underline;
+}
 .s_row{
     color: #70757a;
     margin-top: 10px;
     font-size: 14px;
+}
+.s_row:hover{
+    text-decoration: underline;
+}
+.L_row{
+    font-size: 14px;
+}
+.L_row:hover{
+    text-decoration: underline;
 }
 /* Profiles icons */
 .profiles{
